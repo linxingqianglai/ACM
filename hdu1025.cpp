@@ -24,9 +24,9 @@ int main()
 			road[temp1]=temp2;
 		}
 		len=1;
+		stack[1]=road[1];
 		for(i=1;i<=n;i++)
 		{
-			stack[1]=road[1];
 			low=1,up=len;
 			while(low<=up)
 			{
